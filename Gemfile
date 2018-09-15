@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
-ruby '2.3.0'
 
-gem 'rails',        '4.2.0'    
+gem 'rails',        '4.2.0'
 gem 'sass-rails', '>= 5.0.3'
 gem 'uglifier',     '2.5.3'
 gem 'coffee-rails', '4.1.0'
@@ -18,6 +17,7 @@ group :development, :test do
 end
 
 group :production do
+  ruby '2.3.0'
   gem 'pg',             '0.17.1'
   gem 'rails_12factor', '0.0.2'
 end

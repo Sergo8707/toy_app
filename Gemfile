@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby                '2.3.7'
 
 gem 'rails',        '4.2.0'
 gem 'sass-rails', '>= 5.0.3'
@@ -17,7 +18,6 @@ group :development, :test do
 end
 
 group :production do
-  ruby                  '1.9.3'
   gem 'pg',             '0.17.1'
   gem 'rails_12factor', '0.0.2'
 end
